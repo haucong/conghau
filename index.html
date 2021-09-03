@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="shortcut icon" href="./img/bg1.jpg"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    
+    <title>conghau</title>
+
+</head>
+<body class="dark">
+    <div class="cursor"></div>
+    <div class="container">
+        <!-- navigation -->
+        <div class="navigation">
+            <ul>
+                <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">Giới Thiệu</a></li>
+                <li><a href="#sothich" onclick="toggleMenu();">Sở thích</a></li>
+                <li><a href="#project" onclick="toggleMenu();">web cùi bắp</a></li>
+            </ul>
+
+            <div class="themswitch">
+                <i class="far fa-moon"></i>
+            </div>
+            
+        </div>
+
+        <!-- main -->
+        <div class="main">
+            <div class="topbar">
+                <a href="#" class="logo">Conghau</a>
+                <div class="toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <!-- BANNER -->
+            <section class="banner" id="banner">
+            <div class="content">
+                <div class="imgBx" data-aos="zoom-in">
+                    <div class="mySlides fade">
+                        <img src="img/bg1.jpg" >
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img/bg2.jpg" >
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img/bg3.jpg" >
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img/bg4.jpg" >
+                    </div>
+                    
+                </div>
+                <a onclick="plusSlides(1)" class="btn next" data-aos="zoom-in">Nhấn để đổi ảnh</a>
+                    <h3 data-aos="zoom-in">Ngô Công Hậu</h3>
+                    <p data-aos="zoom-in">Hello.. Xin chào mọi người đã ghé vào page của mình..</p>
+                    <ul class="socialMedia"  > 
+                        <li><a href="https://www.facebook.com/bapconghau/"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https://twitter.com/home?lang=vi"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="https://www.instagram.com/conghau_2000"><i class="fab fa-instagram-square"></i></a></li>
+                        <li><a href="https://github.com/haucong"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section class="about adjust" id="about" >
+                <div class="title">
+                    <h2 data-aos="zoom-out">Tự sự</h2>
+                </div>
+                <div class="content">
+                    <div class="textBox" data-aos="fade-right">
+                        <p>“Ờ.. "giới thiệu gì bây giờ ta..""  <br>
+                            tôi cũng hổng có gì đặc biệt trơn, văn vỡ đồ cũng dỡ ẹt hà nên cũng hỏng biết nói dì😅<br>
+                            Tôi sinh năm 2k, sinh ra và lớn lên ở Tiền Giang, bạn bè tôi nó hỏi "quê mày có gì đặc sản hông?" bài hát hành trình trên đất phù xa thì có câu: *quýt Cái Bè nổi tiếng ngọt ngây* 
+                            quýt đâu hỏng thấy trồng mà tui thấy toàn là lúa với mít không hà 😅,
+                            <br><br> Là một người hướng nội, thích yên tĩnh, dễ cọc lóc. Có xúc cảm với cái đẹp của thiên nhiên, yêu những ánh mắt cử chỉ hồn nhiên của động vật. Tôi may mắn khi được mẹ cho mua máy cơ, chụp thì không đẹp
+                            nhưng cũng có được vài người bạn cùng đam mê, họ đã chụp giúp tôi vài bức ảnh lưu giữ lại tuổi trẻ, tôi để ở bên đó đó 👉 <br>
+                            Còn nói về sở thích thì tui thích đủ thứ, thích nhiều lắm, nhấn vô <a  href="#sothich"> đây</a> để xem nè..
+                        </p>
+                    </div>
+                    <div class="imgbox" data-aos="fade-left">
+                        <img src="./img/about.jpg" alt="" id="img" onclick="changeImage()">
+                    </div>
+                </div>
+            </section>
+
+            <!-- so thich  -->
+            <section class="services adjust" id="sothich">
+                <div class="title">
+                    <h2 data-aos="zoom-out">Sở thích</h2>
+                    <p data-aos="zoom-out">sở thích nhiều lắm ^^
+
+                    </p>
+                </div>
+
+                <div class="content">
+                    <div class="serviceBox" data-aos="zoom-in">
+                        <img src="./img/computer.png" alt="">
+                        <h2>web-design</h2>
+                        <p>Sau khi học cũng tới năm thứ 3 thì mình khám lại bản thân của mình thì tui cảm thấy mình thích làm web ghê luông, làm frontend á!
+                            tôi đang cố gắn hết sức mình để thiệttt nhuần nhuyễn cái đống này, và có được vị trí việc làm tốt sau khi ra trường!
+                            làm việc mình thích thì còn gì bằng he mọi người..
+                        </p>
+                    </div>
+                    <div class="serviceBox" data-aos="zoom-in">
+                        <img src="./img/fooball.png" alt="">
+                        <h2>Bóng đá</h2>
+                        <p>Tôi mê đá banh từ nhỏ xíu lận, hai anh em ở nhà làm bể, lủng, lên nóc nhà biết bao nhiêu trái banh mà nói,
+                            tới đi học thì chơi đến nổi gòm như cây sậy luôn mà vẫn mê. 
+                            giờ mới có 21 chậm chạp rồi mà mỗi lần ra sân banh chơi cảm giác thiệt là phêêê.. đá lần có 5 phút mà thở le lưỡi không, ngồi coi đồng đội đá thoi cũng đã !!!
+                        </p>
+                    </div>
+                    <div class="serviceBox" data-aos="zoom-in">
+                        <img src="./img/vlball.png" alt="">
+                        <h2>Bóng chuyền</h2>
+                        <p>
+                            Tôi biết bóng truyền thì trễ đá banh, cái hồi còn gòm á bay nhẩy đồ cũng có lý lắm. Giờ bụng chang bang mỡ không gòi,
+                            lâu lâu ngồi nhà mở youtbe coi bậy đỡ ghiền thôi..
+                        </p>
+                    </div>
+                    <div class="serviceBox" data-aos="zoom-in">
+                        <img src="./img/cam.png" alt="">
+                        <h2>Chụp ảnh</h2>
+                        <p>Cảm giác khi cầm máy ảnh trong tay ngấm ngấm, tiếng bắt nét của máy ảnh nghe kích thích vãi luông, 
+                            mỗi khi chụp ra tấm hình đẹp ta nói nó sướng! 
+                            đi cũng được 12/13 tỉnh miền tây rồi. nó mang lại cho tôi nhiều người bạn lắm và nhiều khách chửi nữa haha </p>
+                    </div>
+                    <div class="serviceBox" data-aos="zoom-in">
+                        <img src="./img/dog.png" alt="">
+                        <h2>Chơi chó</h2>
+                        <p>
+                             Chơi với chó á! &nbsp;
+                            Chó nó chung thành, ngoan, dễ thương lắm!!!!!! Tôi xem tụi nó nhưng những người bạn của tôi vậy.
+
+                        </p>
+                    </div>
+                    <div class="serviceBox" data-aos="zoom-in">
+                        <img src="./img/travel.png" alt="">
+                        <h2>Du lịch</h2>
+                        <p>Tôi từng nghe câu du lịch là đi từ nơi chán của mình sang nơi củ xèm của khác để rồi mệt đừ rồi quay dề nơi chán của mình kkk. 
+                            tôi cũng chưa có điều kiện để đi nhiều nơi, thôi thì ở nhà bật tivi rồi coi người ta đi du lịch giùm mình vậy, vài năm sau đủ điều kiện thì tha hồ mà đi hehee </p>
+                    </div>
+                </div>
+            </section>
+
+            <!----------------------------- Project -------------------------- -->
+            <section class="project adjust" id="project">
+            <div class="title">
+                <h2 data-aos="zoom-out">website cùi bắp</h2>
+                <p data-aos="zoom-out">Đây là một số dự án website cùi bắp của tui, cũng mới mò mẩm làm gần đây à nên còn dỏm lắm! à còn đang hoàn thiện vài project React chừng nào xong thì tui sẽ khoe thêm lên đây hehe</p>
+                <br> <p style="font-style: italic; font-size: 14px;" data-aos="zoom-out"> "à.. nếu sử dụng máy tính thì rê chuột vô rồi nhấn vào link nha, còn sử dụng điện thoại thì nhấn vào ^^"</p>
+            </div>
+            <div class="content">
+                <div class="workBox" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+                    <div class="imgBox">
+                        <img src="./img/123.PNG" alt="the band">
+                        <p class="project-num">the band</p>
+                    </div>
+                    <div class="textBox">
+                        <h3><a  class="theapj" href="https://haucong.github.io/theband-web-responsive/" >The band <br>
+                            <p>USE:HTML, CSS, JAVASCRIPT</p>
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="workBox" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+                    <div class="imgBox">
+                        <img src="./img/123 - Copy.PNG" alt="shoppe">
+                        <p class="project-num">shoppe</p>
+                    </div>
+                    <div class="textBox">
+                        <h3><a  class="theapj" href="https://haucong.github.io/shoppe-responsive/" >Shoppe <br>
+                            <p>USE:HTML, CSS, JAVASCRIPT</p>
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="workBox" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+                    <div class="imgBox">
+                        <img src="./img/wordpress.PNG" alt="the band">
+                        <p class="project-num">wordpress</p>
+                    </div>
+                    <div class="textBox">
+                        <h3><a  class="theapj" href="http://conghaucute.unaux.com/" > use wordpress <br>
+                            <!-- <p>Wordpress</p> -->
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="workBox" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+                    <div class="imgBox">
+                        <img src="./img/dulich.PNG" alt="the band">
+                        <p class="project-num">DU LICH</p>
+                    </div>
+                    <div class="textBox">
+                        <h3><a  class="theapj" href="https://haucong.github.io/giaodienweb-dulich/" > TRAVEL <br>
+                            <p>USE HTML, CSS , JAVASCRIPT</p>
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="workBox" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+                    <div class="imgBox">
+                        <img src="./img/scss.PNG" alt="the band">
+                        <p class="project-num">LANDING PAGE</p>
+                    </div>
+                    <div class="textBox">
+                        <h3><a  class="theapj" href="#https://haucong.github.io/scss-briandesign/" > LANDING PAGE <br>
+                            <p>USE HTML, SCSS </p>
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="workBox" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+                    <div class="imgBox">
+                        <img src="./img/conghau.PNG" alt="the band">
+                        <p class="project-num"> CONG HAU</p>
+                    </div>
+                    <div class="textBox">
+                        <h3><a  class="theapj" href="http://conghaucute.unaux.com/" > CONG HAU <br>
+                            <p>USE HTML , CSS, JAVASCRIPT</p>
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="workBox" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+                    <div class="imgBox">
+                        <img src="./img/restaurant.PNG" alt="the band">
+                        <p class="project-num"> RESTAURANT</p>
+                    </div>
+                    <div class="textBox">
+                        <h3><a  class="theapj" href="#http://conghaucute.unaux.com/" > RESTAURANT <br>
+                            <p>USE HTML , CSS, JAVASCRIPT</p>
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="workBox" data-aos="fade-up"
+                data-aos-anchor-placement="top-center">
+                    <div class="imgBox">
+                        <img src="./img/PORTFOLIO.png" alt="the band">
+                        <p class="project-num"> LANGDINGPAGE</p>
+                    </div>
+                    <div class="textBox">
+                        <h3><a  class="theapj" href="#http://conghaucute.unaux.com/" > LANGDINGPAGE <br>
+                            <p>REACT</p>
+                            </a>
+                        </h3>
+                    </div>
+                </div>
+
+              
+
+            </div>
+            </section>
+            <div id="up" class="go-top-page btn-hide">
+                    <a href="#banner">
+                        <i class="fas fa-arrow-to-top"></i>
+                    </a>
+            </div>
+            <!-- -------------------COPPY RIGHT--------------------------- -->
+
+            <div class="copyright">
+            <p>Hết trang rồi. Hẹn gặp lại mọi người ❤</p>
+            </div>
+        </div>
+    </div>
+    <script src = "./script.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+    <audio controls autoplay>
+    <source src="./mp3/Chill Day.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</html>
