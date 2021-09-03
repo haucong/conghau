@@ -1,4 +1,4 @@
-        let toggle = document.querySelector('.toggle');
+         let toggle = document.querySelector('.toggle');
         let topbar = document.querySelector('.topbar');
         let navigation = document.querySelector('.navigation');
         let main = document.querySelector('.main');

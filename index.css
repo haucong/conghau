@@ -87,7 +87,7 @@ body{
     left: 0;
     width: calc(100% - 0px);
 }
-.topbar{
+.main .topbar{
     position: fixed;
     width: calc(100% - 300px);
     left: 300px;
@@ -106,7 +106,7 @@ body{
 }
 .main .topbar.active{
     left: 0;
-    width: calc(100% - 0px);
+    width: calc(100% - 00px);
 
 }
 .main .topbar .logo{
@@ -291,7 +291,7 @@ p {
 .about .content .imgbox img{
     width: 299px;
     height: 400px;
-    margin: 100px 110px;
+    margin: 15x 15px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 1px 2px 10px #e0a6f34b;
@@ -533,6 +533,9 @@ p {
 .copyright p{
     color: black;
 }
+
+
+/* dảrk */
 .themswitch{
     position: absolute;
     bottom: 20px;
@@ -651,6 +654,7 @@ p {
     .themswitch{
         left: 20px;
     }
+   
     .navigation{
         left: -100%;
     }
@@ -684,6 +688,7 @@ p {
    .adjust{
        padding: 0 20px;
        padding-top: 80px;
+       padding-bottom: 120px;
    }
    .about .content{
        flex-direction: column;
@@ -721,5 +726,8 @@ p {
     }
     .copyright{
         margin-bottom: 40px;
+    }
+    .adjust{
+        width: 100%;
     }
 }
